@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user</title>
+    <style>
+        .user{
+            border: 2px solid greenyellow;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        #user-section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .random-User{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #random-user{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>users</h1>
+    <h1>random user</h1>
+    <button onclick="randomUsers()">Random user</button>
+    <section id="random-user"></section>
+    <button onclick="getUser()">find user</button>
+    <section id="user-section"></section>
+    <button onclick="kanyeApi()">kanye</button>
+    <section id="kanye"></section>
+
+    <script src="user.js"></script>
+</body>
+</html>

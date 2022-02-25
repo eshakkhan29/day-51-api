@@ -1,0 +1,12 @@
+.body{
+    background: #09618a;
+    border: 2px solid #d46306;
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+}
+#comments-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
